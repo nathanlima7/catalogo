@@ -10,7 +10,7 @@ function isStoreOpen() {
     const closingMinute = 0;
 
     // Verifica se a loja está aberta entre 16:00 e 23:59
-    if (currentHour >= openingHour && currentHour < 24) {
+    if (currentHour >= openingHour && currentHour < 17) {
         return true; // Loja aberta
     }
 
